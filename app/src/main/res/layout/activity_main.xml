@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+
+    <EditText
+        android:id="@+id/insert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stringHint"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:inputType="numberDecimal|numberSigned"
+        android:digits="0123456789,."
+        android:imeOptions="actionNext"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button_toCelsius"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toCelsius"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:background="#009196"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_toFahrenheit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toFahrenheit"
+        android:layout_weight="1"
+        android:textSize="30dp"
+        android:background="#892B00"
+        android:textColor="#FFFFFF"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
